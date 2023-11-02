@@ -6,12 +6,12 @@ header section{
   display: flex;
   justify-content: space-between;
 }
-header section a{
+.header_-section--button-nav{
   border: 1px solid #ffffff;
-  padding: 4px;
+  padding: 5px 8px;
   border-radius: 2px;
   font-size: 1.5rem;
-}
+ }
 header nav{
   display: none;
 }
@@ -33,7 +33,7 @@ header nav ul li a{
     gap: 20px;
     align-items: center;
   }
-  header section a{
+  .header_-section--button-nav{
    display: none;
   }
   header nav{

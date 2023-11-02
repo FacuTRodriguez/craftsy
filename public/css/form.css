@@ -6,6 +6,16 @@
   margin-bottom: 20px;
   width: 100%;
 }
+.form__box--position{
+  position: relative;
+}
+.form__box--position span{
+  position: absolute;
+  right: 10px;
+  top: 17px;
+  cursor: pointer;
+  color: var(--colorGris);
+}
 .form__label{
   margin-bottom: 20px;
 }
